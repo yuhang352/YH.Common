@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+	  <PackageId>YH.Common</PackageId>
+	  <Description>一个全局通用工具类,包含判断字符串和值类型转换。</Description>
+	  <Author>leonTang</Author>
+	  <Version>1.0.5</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
